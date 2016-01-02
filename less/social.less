@@ -1,0 +1,17 @@
+.social {
+  display: inline-block;
+  vertical-align: middle;
+  a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: white;
+    &:not(:last-child) {
+      margin-right: 13px;
+    }
+    &:hover {
+      background: @green;
+    }
+  }
+}

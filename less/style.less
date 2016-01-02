@@ -1,13 +1,28 @@
 @mobile: ~ "(max-width: 767px)";
 @tablet: ~ "(min-width: 768px)";
-@desktop: ~ "(min-width: 1280px)";
+@desktop: ~ "(min-width: 940px)";
+
+@green:#65ba99;
 
 .lcw() {
-  max-width:1280px;
+  max-width:940px;
   margin: 0 auto;
+}
+
+* {
+  
 }
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: BebasNeue, sans-serif;
 }
+
+@import "header.less";
+@import "page-nav.less";
+@import "social.less";
+
+@font-face {
+  font-family: BebasNeue; 
+  src: url("font/BebasNeue Regular.ttf"); 
+ }
