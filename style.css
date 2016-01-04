@@ -86,18 +86,140 @@ body {
   display: inline-block;
   vertical-align: middle;
 }
-.social a {
+.social__item {
   display: inline-block;
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: white;
+  background: white no-repeat center;
+  background-size: 20px 20px;
 }
-.social a:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: 13px;
 }
-.social a:hover {
-  background: #65ba99;
+.social__item:hover {
+  background-color: #65ba99;
+}
+.social__item--linkedin {
+  background-image: url(../img/social/linkedin12.svg);
+}
+.social__item--facebook {
+  background-image: url(../img/social/facebook55.svg);
+}
+.social__item--flickr {
+  background-image: url(../img/social/socialnetwork340.svg);
+}
+.social__item--twitter {
+  background-image: url(../img/social/twitter1.svg);
+}
+.portfolio {
+  padding: 60px 0 100px;
+  background-color: #65ba99;
+}
+.portfolio h2 {
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+  color: white;
+  margin-bottom: 15px;
+}
+.portfolio h3 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  color: white;
+  margin-bottom: 50px;
+}
+.portfolio__container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 940px;
+  margin: 0 auto;
+}
+.portfolio__item {
+  height: 240px;
+  width: 25%;
+  background: grey no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.portfolio__item:hover .portfolio__mask {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.portfolio__item-1 {
+  background-image: url(../img/portfolio/1.jpg);
+}
+.portfolio__item-1 {
+  background-image: url(../img/portfolio/1.jpg);
+}
+.portfolio__item-2 {
+  background-image: url(../img/portfolio/2.jpg);
+}
+.portfolio__item-3 {
+  background-image: url(../img/portfolio/3.jpg);
+}
+.portfolio__item-4 {
+  background-image: url(../img/portfolio/4.jpg);
+}
+.portfolio__item-5 {
+  background-image: url(../img/portfolio/5.jpg);
+  width: 50%;
+}
+.portfolio__item-6 {
+  background-image: url(../img/portfolio/6.jpg);
+}
+.portfolio__item-7 {
+  background-image: url(../img/portfolio/7.jpg);
+}
+.portfolio__item-8 {
+  background-image: url(../img/portfolio/8.jpg);
+}
+.portfolio__item-9 {
+  background-image: url(../img/portfolio/9.jpg);
+}
+.portfolio__item-10 {
+  background-image: url(../img/portfolio/10.jpg);
+  width: 50%;
+}
+.portfolio__mask {
+  position: absolute;
+  background-color: rgba(101, 186, 153, 0.5);
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  display: none;
+}
+.portfolio__link {
+  display: inline-block;
+  width: 25%;
+  height: 25%;
+  background: no-repeat center;
+}
+.portfolio__link--zoom {
+  width: 100%;
+  height: 75%;
+  background-image: url(../img/portfolio/mask/zoom.svg);
+  background-position: 50% 75%;
+}
+.portfolio__link--polaroid {
+  background-image: url(../img/portfolio/mask/polaroid.svg);
+}
+.portfolio__link--link {
+  background-image: url(../img/portfolio/mask/link.svg);
+}
+.portfolio__link--info {
+  background-image: url(../img/portfolio/mask/info.svg);
+}
+.portfolio__link--like {
+  background-image: url(../img/portfolio/mask/like.svg);
 }
 @font-face {
   font-family: BebasNeue;
