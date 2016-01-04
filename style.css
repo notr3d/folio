@@ -185,7 +185,7 @@ body {
   background-image: url(img/portfolio/9.jpg);
 }
 .portfolio__item-10 {
-  background-image: url(../img/portfolio/10.jpg);
+  background-image: url(img/portfolio/10.jpg);
   width: 50%;
 }
 .portfolio__mask {
@@ -223,7 +223,7 @@ body {
   background-image: url(img/portfolio/mask/link.svg);
 }
 .portfolio__link--info {
-  background-image: url(../img/portfolio/mask/info.svg);
+  background-image: url(img/portfolio/mask/info.svg);
 }
 .portfolio__link--like {
   background-image: url(img/portfolio/mask/like.svg);
