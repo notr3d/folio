@@ -104,16 +104,16 @@ body {
   background-color: #65ba99;
 }
 .social__item--linkedin {
-  background-image: url(../img/social/linkedin12.svg);
+  background-image: url(img/social/linkedin12.svg);
 }
 .social__item--facebook {
-  background-image: url(../img/social/facebook55.svg);
+  background-image: url(img/social/facebook55.svg);
 }
 .social__item--flickr {
-  background-image: url(../img/social/socialnetwork340.svg);
+  background-image: url(img/social/socialnetwork340.svg);
 }
 .social__item--twitter {
-  background-image: url(../img/social/twitter1.svg);
+  background-image: url(img/social/twitter1.svg);
 }
 .portfolio {
   padding: 60px 0 100px;
@@ -173,16 +173,16 @@ body {
   width: 50%;
 }
 .portfolio__item-6 {
-  background-image: url(../img/portfolio/6.jpg);
+  background-image: url(img/portfolio/6.jpg);
 }
 .portfolio__item-7 {
-  background-image: url(../img/portfolio/7.jpg);
+  background-image: url(img/portfolio/7.jpg);
 }
 .portfolio__item-8 {
-  background-image: url(../img/portfolio/8.jpg);
+  background-image: url(img/portfolio/8.jpg);
 }
 .portfolio__item-9 {
-  background-image: url(../img/portfolio/9.jpg);
+  background-image: url(img/portfolio/9.jpg);
 }
 .portfolio__item-10 {
   background-image: url(../img/portfolio/10.jpg);
@@ -407,17 +407,17 @@ body {
   background: no-repeat center;
 }
 .sponsors__item--canon {
-  background-image: url(../img/sponsors/canon.png);
+  background-image: url(img/sponsors/canon.png);
 }
 .sponsors__item--nikon {
-  background-image: url(../img/sponsors/nikon.png);
+  background-image: url(img/sponsors/nikon.png);
 }
 .sponsors__item--manfrotto {
-  background-image: url(../img/sponsors/manfrotto.png);
+  background-image: url(img/sponsors/manfrotto.png);
   background-size: contain;
 }
 .sponsors__item--prolight {
-  background-image: url(../img/sponsors/prolight.png);
+  background-image: url(img/sponsors/prolight.png);
 }
 .bio {
   background: #e74c3c;
